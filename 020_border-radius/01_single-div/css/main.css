@@ -1,0 +1,14 @@
+h1 {
+    font-size: 48px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border: 2px solid #000;
+}
+
+#rounded {
+    border-radius: 50%;
+}

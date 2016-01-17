@@ -1,0 +1,38 @@
+body {
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid #000;
+    display: inline-block;
+}
+
+#rounded-50 {
+    border-radius: 50%;
+}
+#rounded-40 {
+    border-radius: 40%;
+}
+#rounded-30 {
+    border-radius: 30%;
+}
+#rounded-20 {
+    border-radius: 20%;
+}
+#rounded-10 {
+    border-radius: 10%;
+}
+#rounded-5 {
+    border-radius: 5%;
+}
+#rounded-3 {
+    border-radius: 3%;
+}
