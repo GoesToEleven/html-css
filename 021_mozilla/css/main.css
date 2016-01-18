@@ -1,7 +1,6 @@
 html {
-    font-size: 10px;
     font-family: 'Open Sans', sans-serif;
-    background-color: #419e9f;
+    background-color: #00539F;
 }
 
 body {
@@ -23,7 +22,6 @@ h1 {
 img {
     display: block;
     margin: 0 auto;
-    /*border: 1px solid black;*/
 }
 
 p, li {

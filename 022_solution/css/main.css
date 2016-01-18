@@ -1,5 +1,4 @@
 html {
-    font-size: 10px;
     font-family: 'Open Sans', sans-serif;
     background-color: #00539F;
 }
@@ -15,7 +14,7 @@ body {
 img {
     display: block;
     margin: 30px auto;
-    border-radius: 50%;
+    border-radius: 100%;
     border: 20px ridge gold;
 }
 
