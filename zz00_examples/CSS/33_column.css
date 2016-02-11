@@ -1,0 +1,9 @@
+.my-columns {
+    padding: 1em;
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+    -webkit-column-gap: 1em;
+       -moz-column-gap: 1em;
+            column-gap: 1em;
+}

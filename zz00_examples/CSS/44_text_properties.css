@@ -1,0 +1,42 @@
+.text-align {
+    text-align: center;
+}
+
+.text-decoration {
+    text-decoration: underline;
+}
+
+.text-decoration-two {
+    text-decoration: none;
+}
+
+.text-indent {
+    text-indent: 20px;
+}
+
+.text-shadow {
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.letter-spacing {
+    letter-spacing: .9em;
+}
+
+.letter-spacing-two {
+    letter-spacing: 2.0em;
+}
+
+.word-spacing {
+    word-spacing: .25em;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    box-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+    border: 1px solid red;
+}

@@ -1,0 +1,54 @@
+.color {
+    color: red;
+}
+
+.font-family {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.font-size {
+    font-size: xx-large;
+}
+/*
+great article on font-size
+http://css-tricks.com/css-font-size/
+
+px – em – % – pt
+xx-small, x-small, small, medium, large, x-large, xx-large
+as well as relative keywords smaller and larger
+*/
+
+.font-style {
+    font-style: italic;
+    /*font-style: oblique;*/
+    /*font-style: normal;*/
+}
+
+.font-variant {
+    font-variant: small-caps;
+    /*font-variant: all-small-caps;*/
+    /*font-variant: petite-caps;*/
+    /*font-variant: all-petite-caps;*/
+    /*font-variant: titling-caps;*/
+    /*font-variant: unicase;*/
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+p {
+    line-height: 12px;
+}
+
+.shorthand {
+    font: italic small-caps bold 14px/22px "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+/*
+REQUIRED
+font-size & font-family
+14px
+
+(22px is line-height in above example)
+*/

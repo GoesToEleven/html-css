@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    /*display: inline-flex;*/
+
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    flex-flow: row wrap;
+
+    justify-content: space-between;
+}
+
+.item {
+    width: 600px;
+    height: 100px;
+    margin: 1em;
+    border: 1px solid red;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.grow1 {
+    flex-grow: 1;
+}
+
+.grow2 {
+    flex-grow: 2;
+}
+
+
+.grow3 {
+    flex-grow: 3;
+    flex-basis: 500px;
+}

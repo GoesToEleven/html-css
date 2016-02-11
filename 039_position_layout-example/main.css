@@ -1,0 +1,24 @@
+/*
+
+* {
+    border: 1px dashed red;
+}
+
+*/
+
+.container {
+    position: relative;
+    border: 1px solid black;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    width: 200px;
+}
+
+section {
+    /* position is static by default */
+    margin: 0px 0px 10px 200px;
+}

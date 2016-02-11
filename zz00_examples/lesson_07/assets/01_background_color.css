@@ -1,0 +1,33 @@
+body{
+    background-image: url("http://www.allaboutdrawings.com/image-files/palm-tree-drawings.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*header {*/
+    /*display: flex;*/
+    /*flex-flow: column nowrap;*/
+    /*justify-content: center;*/
+    /*flex: 1 auto;*/
+/*}*/
+
+/*figcaption {*/
+    /*font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    /*font-size: 48px;*/
+    /*font-variant: small-caps;*/
+    /*line-height: 12px;*/
+    /*text-align: center;*/
+    /*flex: 1 auto;*/
+/*}*/
+
+/*
+
+background-image: url("palm.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+margin: 0px;
+background: #000000;
+
+*/

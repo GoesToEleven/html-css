@@ -1,0 +1,23 @@
+div {
+    border-radius: 5px;
+}
+
+#one {
+    width: 100px;
+    height: 100px;
+    background-color: #547980;
+    position: fixed;
+    /*font stuff below*/
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+#two {
+    width: 1190px;
+    height: 1500px;
+    margin: 0 auto;
+    background-color: #45ADA8;
+    border: 5px dashed red;
+}
+

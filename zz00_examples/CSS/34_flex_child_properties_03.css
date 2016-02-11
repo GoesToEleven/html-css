@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+}
+
+.item {
+    flex-grow: 1;
+    /*flex-basis: 10px;*/
+    flex-basis: auto;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.item2 {
+    flex-grow: 3;
+    /*flex-basis: 500px;*/
+    flex-basis: auto;
+    height: 100px;
+    border: 1px solid black;
+}
+
+/*
+
+flex --> flex-grow, flex-shrink, flex-basis
+flex-shrink and flex-basis are optional
+Default --> 0 1 auto
+
+flex: 0 auto;
+flex: 1 10px;
+
+FLEX GROW
+expressed using a number
+used to determine how much a flex item will grow relative to the rest of the flex items inside the container.
+If every flex item has a flex grow of one for example, each item would be the same size.
+If flex grow is not defined for an item, it defaults to one.
+
+FLEX SHRINK
+expressed using a number
+determines how much a flex item will shrink relative to other flex items inside the container.
+it defaults to one if you leave it off.
+
+FLEX BASIS
+expressed using the same values you would use for an element's width:
+                pixels, percentages, any length, the key word auto
+This value is then used as the initial, main size, of an element
+    before any remaining free space has been distributed.
+If you leave it off, the initial value is assumed to be zero.
+
+FLEX
+shorthand notation for
+flex-grow, flex-shrink, flex-basis
+flex-shrink and flex-basis are optional
+
+IN PRACTICE
+In most cases, you won't be setting all three values.
+Usually, I see either
+        a single flex grow value
+        or a combination of flex grow and flex basis
+If you want a list of common values and how they affect an item's flexibility,
+check out the section on the flex property in the W3C flexbox specification.
+
+*/

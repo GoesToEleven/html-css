@@ -1,0 +1,19 @@
+div {
+    border: 3px solid #00FF00;
+}
+
+.simple {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.fancy {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border-width: 10px;
+}
+
+.after {
+    box-sizing: border-box;
+}

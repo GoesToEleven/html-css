@@ -1,0 +1,32 @@
+div {
+    border-radius: 5px;
+}
+
+#header {
+    height: 50px;
+    background-color: #F38630;
+    margin-bottom: 10px;
+}
+
+.left {
+    height: 300px;
+    width: 24%;
+    background-color: #A7DBD8;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.right {
+    height: 300px;
+    width: 74%;
+    background-color: #E0E4CC;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#footer {
+    height: 50px;
+    background-color: #69D2E7;
+    clear: both;
+
+}

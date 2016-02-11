@@ -1,0 +1,14 @@
+div {
+    border: 1px solid #000;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+img {
+    float: right;
+    width: 50%;
+}
+
+.clearfix {
+    overflow: auto;
+}
