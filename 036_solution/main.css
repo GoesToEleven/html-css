@@ -1,28 +1,23 @@
-* {
-    border: 1px dashed blue;
-}
-
-
 div {
     height: 50px;
     width: 100px;
     border: 2px solid black;
     border-radius: 50px;
-    /*display: block;*/
+    display: inline-block;
 }
 
-#one {
+.one {
     background-color: #FF0000;
 }
 
-#two {
+.two {
     background-color: #0000FF;
 }
 
-#three {
+.three {
     background-color: #FFD700;
 }
 
-#four {
+.four {
     background-color: #308014;
 }

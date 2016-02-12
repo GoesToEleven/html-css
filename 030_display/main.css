@@ -5,7 +5,7 @@ body {
     padding: 20px;
 }
 
-p, div, header, footer, article, section, aside {
+p, div, header, footer, article, section, aside, h1 {
     border: 1px solid #000;
     padding: 10px;
     margin: 10px;
