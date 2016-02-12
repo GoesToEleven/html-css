@@ -1,10 +1,6 @@
-/*
-
-* {
-    border: 1px dashed red;
+nav, main {
+    border: 1px solid red;
 }
-
-*/
 
 .container {
     position: relative;
@@ -18,7 +14,7 @@ nav {
     width: 200px;
 }
 
-section {
+main {
     /* position is static by default */
     margin: 0px 0px 10px 200px;
 }

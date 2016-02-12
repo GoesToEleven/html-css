@@ -1,14 +1,14 @@
-div {
+header, nav, main, footer {
     border-radius: 5px;
 }
 
-#header {
+header {
     height: 50px;
     background-color: #F38630;
     margin-bottom: 10px;
 }
 
-.left {
+nav {
     height: 300px;
     width: 24%;
     background-color: #A7DBD8;
@@ -16,7 +16,7 @@ div {
     margin-bottom: 10px;
 }
 
-.right {
+main {
     height: 300px;
     width: 74%;
     background-color: #E0E4CC;
@@ -24,9 +24,8 @@ div {
     margin-bottom: 10px;
 }
 
-#footer {
+footer {
     height: 50px;
     background-color: #69D2E7;
     clear: both;
-
 }
