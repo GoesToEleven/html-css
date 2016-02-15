@@ -7,7 +7,7 @@ div {
     width: 100px;
     border: 2px solid black;
     border-radius: 50px;
-    display: inline-block;
+    /*display: block;*/
 }
 
 #one {
