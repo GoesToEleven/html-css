@@ -1,0 +1,23 @@
+body {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    overflow: auto;
+    border: 1px solid red;
+}
+
+nav, main {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+nav {
+    float: left;
+    vertical-align: top;
+    width: 25%;
+}
+
+main {
+    float: right;
+    width: 75%;
+}

@@ -1,0 +1,19 @@
+body {
+    margin: 30px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: #00C957;
+}
