@@ -1,19 +1,22 @@
-body {
-    margin: 30px;
+#container {
+    overflow: auto;
+    border: 2px solid red;
 }
 
-li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 10px;
+#one, .happy {
+    width: 300px;
+    height: 300px;
+    float: left;
+    border: 2px solid yellow;
+    margin: 20px;
 }
 
-a {
+#two {
+    border: 2px solid green;
+}
+
+#three {
+    clear: left;
     border: 2px solid black;
-    border-radius: 20px;
-    padding: 20px;
 }
 
-a:hover {
-    background-color: #00C957;
-}

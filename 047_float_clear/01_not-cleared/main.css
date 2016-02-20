@@ -1,14 +1,11 @@
-section {
-    border: 2px solid blue;
-}
-
 div {
     border: 2px solid green;
-}
-
-#box {
     float: left;
     width: 200px;
     height: 100px;
     margin: 1em;
+}
+
+section {
+    border: 2px solid blue;
 }

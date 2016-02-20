@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    /* this is the default: */
+    /*flex-flow: row nowrap;*/
+}
+
+div {
+    border: 2px solid black;
+    height: 100px;
+    flex-grow: 1;
+}

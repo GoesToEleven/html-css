@@ -2,7 +2,6 @@
     list-style: none;
     margin: 0;
     background: deepskyblue;
-
     /*FLEX*/
     display: flex;
     justify-content: flex-end;
@@ -42,8 +41,3 @@
         border-bottom: none;
     }
 }
-
-/*
-.old_list li {
-    display: inline;
-}*/

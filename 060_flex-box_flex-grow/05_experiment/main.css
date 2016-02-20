@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    /* this is the default: */
+    /*flex-flow: row nowrap;*/
+}
+
+div {
+    border: 2px solid black;
+    height: 100px;
+}
+
+.flex1 {
+    flex-grow: 1;
+}
+
+.flex2 {
+    flex-grow: 2;
+    width: 100%;
+}
+/*
+What if ...
+flex-wrap: nowrap
+width: 100%
+*/

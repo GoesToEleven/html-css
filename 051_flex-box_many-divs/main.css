@@ -1,12 +1,18 @@
-    .container {
+.container {
+    height: 9000px;
+    border: 5px solid red;
     display: flex;
     /*display: inline-flex;*/
-
     /*flex-direction: row;*/
     /*flex-wrap: wrap;*/
+
     flex-flow: row wrap;
+    /* try commenting out the above*/
+    /* and uncommenting the below*/
+    /*flex-flow: row nowrap;*/
 
     justify-content: space-between;
+    align-content: flex-start;
 }
 
 .item {
@@ -16,5 +22,9 @@
     border: 1px solid red;
     background-color: darkgray;
     text-align: center;
-    flex-grow: 1;
+    flex-shrink: 4;
+}
+
+#one {
+    flex-shrink: 1;
 }
