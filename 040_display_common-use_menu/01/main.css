@@ -1,0 +1,12 @@
+* {
+    border: 1px dashed blue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    /*border: 2px solid red;*/
+    border-radius: 50px;
+}

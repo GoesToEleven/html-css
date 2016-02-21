@@ -1,23 +1,31 @@
-header, section, footer {
+header, nav, main, footer {
     border-radius: 5px;
 }
 
 header {
-    height: 100px;
+    height: 50px;
     background-color: #F38630;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
-section {
+nav {
     height: 300px;
-    width: 30%;
+    width: 24%;
     background-color: #A7DBD8;
     float: left;
-    margin: 0 1.5% 15px 1.5%;
+    margin-bottom: 10px;
+}
+
+main {
+    height: 300px;
+    width: 74%;
+    background-color: #E0E4CC;
+    float: right;
+    margin-bottom: 10px;
 }
 
 footer {
-    height: 100px;
+    height: 50px;
     background-color: #69D2E7;
-    clear: left;
+    clear: both;
 }

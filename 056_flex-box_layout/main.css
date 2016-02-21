@@ -1,80 +1,52 @@
-body {
-    font: 24px Helvetica;
-    background: #999999;
-}
-
-#main {
-    min-height: 800px;
-    margin: 0px;
-    padding: 0px;
+.wrapper {
+    font-weight: bold;
+    text-align: center;
 
     /*FLEX*/
     display: flex;
-    /*flex-flow: row;*/
+    flex-flow: row wrap;
 }
 
-#main > article {
-    margin: 4px;
-    padding: 5px;
-    border: 1px solid #cccc33;
-    border-radius: 7pt;
-    background: #dddd88;
+.wrapper > * {
+    padding: 10px;
 
     /*FLEX*/
-    flex: 6 60%;
-    order: 2;
+    flex: 1 100%;
 }
 
-#main > nav {
-    margin: 4px;
-    padding: 5px;
-    border: 1px solid #8888bb;
-    border-radius: 7pt;
-    background: #ccccff;
-
-    /*FLEX*/
-    flex: 2 20%;
-    order: 1;
+.header {
+    background: tomato;
 }
 
-#main > aside {
-    margin: 4px;
-    padding: 5px;
-    border: 1px solid #8888bb;
-    border-radius: 7pt;
-    background: #ccccff;
-
-    /*FLEX*/
-    flex: 2 20%;
-    order: 3;
+.footer {
+    background: lightgreen;
 }
 
-header, footer {
-    display: block;
-    margin: 4px;
-    padding: 5px;
-    min-height: 100px;
-    border: 1px solid #eebb55;
-    border-radius: 7pt;
-    background: #ffeebb;
+.main {
+    text-align: left;
+    background: deepskyblue;
 }
 
-/* Too narrow to support three columns */
-@media all and (max-width: 640px) {
+.aside-1 {
+    background: gold;
+}
 
-    #main, #page {
+.aside-2 {
+    background: hotpink;
+}
 
-        /*FLEX*/
-        flex-direction: column;
-    }
+/*GREATER THAN 600px*/
+@media all and (min-width: 600px) {
+    .aside { flex: 1 auto; }
+    body { padding: 0 2em; }
+}
 
-    #main > article, #main > nav, #main > aside {
-        /* Return them to document order */
-        order: 0;
-    }
-
-    #main > nav, #main > aside, header, footer {
-        min-height: 50px;
-        max-height: 50px;
-    }
+/*GREATER THAN 800px*/
+@media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; }
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+    body { padding: 0 3em; }
 }
