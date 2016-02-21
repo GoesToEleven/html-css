@@ -9,19 +9,19 @@ header {
 }
 
 nav {
-    height: 300px;
     width: 24%;
+    height: 300px;
+    margin-bottom: 10px;
     background-color: #A7DBD8;
     float: left;
-    margin-bottom: 10px;
 }
 
 main {
-    height: 300px;
     width: 74%;
+    height: 300px;
+    margin-bottom: 10px;
     background-color: #E0E4CC;
     float: right;
-    margin-bottom: 10px;
 }
 
 footer {

@@ -1,0 +1,17 @@
+body {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 200px;
+    height: 400px;
+    border: 2px solid red;
+    position: absolute;
+}
+
+main {
+    height: 400px;
+    border: 2px solid black;
+    margin: 0 0 0 200px;
+}

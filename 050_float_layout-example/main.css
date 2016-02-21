@@ -9,11 +9,11 @@ header {
 }
 
 section {
-    height: 300px;
     width: 30%;
+    height: 300px;
+    margin: 0 1.5% 15px 1.5%;
     background-color: #A7DBD8;
     float: left;
-    margin: 0 1.5% 15px 1.5%;
 }
 
 footer {

@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    position: relative;
     border: 1px solid black;
     max-width: 700px;
     margin: 0 auto;
@@ -15,10 +14,9 @@ nav, main {
 
 nav {
     position: absolute;
-    width: 25%;
+    width: 200px;
 }
 
 main {
-    /* position is static by default */
-    margin: 0 0 2% 25%;
+    margin: 0 0 10px 200px;
 }

@@ -1,23 +1,27 @@
-* {
-    /*outline: 1px solid red !important;*/
-    border: 2px solid red !important;
+html {
+    border: 2px solid blue;
+}
+
+body {
+    border: 2px solid green;
 }
 
 div {
+    border: 2px solid red;
     color: #fff;
 }
 
-.relative {
-    background-color: #bcbbbb;
-    position: relative;
+#relative {
     width: 600px;
     height: 400px;
+    background-color: #bcbbbb;
+    position: relative;
 }
 
-.absolute {
-    background-color: cadetblue;
+#absolute {
     width: 300px;
     height: 200px;
+    background-color: cadetblue;
     position: absolute;
     top: 120px;
     right: 20px;

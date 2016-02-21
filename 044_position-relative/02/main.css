@@ -1,20 +1,15 @@
 * {
-    /*outline: 1px solid red !important;*/
-    border: 2px solid red !important;
+    border: 2px solid red;
 }
 
 div {
     height: 100px;
     width: 100px;
-    background: blue;
+    background-color: blue;
     color: #fff;
 }
 
-/*.relative1 {
-    position: relative;
-}*/
-
-.relative2 {
+#relative {
     position: relative;
     right: 10px;
     background-color: green;

@@ -1,9 +1,9 @@
 div {
-    border: 2px solid green;
-    float: left;
     width: 200px;
     height: 100px;
     margin: 1em;
+    border: 2px solid green;
+    float: left;
 }
 
 section {

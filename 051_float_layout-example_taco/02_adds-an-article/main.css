@@ -1,9 +1,6 @@
 body {
-    width: 80%;
     max-width: 700px;
-    margin: 0 auto;
-    overflow: auto;
-    border: 1px solid red;
+    margin: 30px auto;
 }
 
 nav, main {
@@ -12,12 +9,12 @@ nav, main {
 }
 
 nav {
-    float: left;
-    vertical-align: top;
     width: 25%;
+    vertical-align: top;
+    float: left;
 }
 
 main {
-    float: right;
     width: 75%;
+    float: right;
 }
