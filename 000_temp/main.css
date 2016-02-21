@@ -1,22 +1,31 @@
-#container {
-    overflow: auto;
-    border: 2px solid red;
+* {
+    border: 1px dashed blue;
 }
 
-#one, .happy {
-    width: 300px;
-    height: 300px;
-    float: left;
-    border: 2px solid yellow;
-    margin: 20px;
+body {
+    width: 80%;
+    margin: 100px auto;
+    padding: 20px;
 }
 
-#two {
-    border: 2px solid green;
-}
 
-#three {
-    clear: left;
+div {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 20px auto;
     border: 2px solid black;
 }
 
+#one {
+    background-color: red;
+}
+#two {
+    background-color: blue;
+}
+#three {
+    background-color: green;
+}
+#four {
+    background-color: yellow;
+}
