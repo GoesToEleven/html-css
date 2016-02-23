@@ -1,11 +1,3 @@
-Position Fixed
-Create a page which uses the declaration "position: fixed" in its CSS. Upload your code to GitHub.
+Create eight pages which rearrange this code by changing the properties of the flex container. Upload your code to Github.
 
-Position Relative
-Create a page which uses the declaration "position: relative" in its CSS. Upload your code to GitHub.
-
-Position Absolute
-Create a page which uses the declaration "position: absolute" in its CSS. Upload your code to GitHub.
-
-Position Layout
-Create a page which has a menu on the left and content on the right. The layout of this page should be created using the "display" property. Upload your code to GitHub.
+Create six pages with each page demonstrating one of the properties which can be set on a flex item. Upload your code to Github.
