@@ -1,7 +1,8 @@
 .container {
     border: 5px solid red;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .item {

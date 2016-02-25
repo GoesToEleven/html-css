@@ -1,0 +1,28 @@
+*** ATTRIBUTES ***
+
+*** MEDIA TYPES ***
+
+all
+Suitable for all devices.
+
+print
+Intended for paged material and for documents viewed on screen in print preview mode. Please consult the section on paged media, and the media section of the Getting Started tutorial for information about formatting issues that are specific to paged media.
+
+screen
+Intended primarily for color computer screens.
+
+
+*** MEDIA FEATURES ***
+
+min-width
+any browser width over the value defined in the query.
+
+max-width
+any browser width below the value defined in the query.
+
+min-height
+any browser height over the value defined in the query.
+
+max-height
+any browser height below the value defined in the query.
+

@@ -1,0 +1,28 @@
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+article, nav, aside {
+    flex-grow: 1;
+}
+
+@media all and (min-width: 640px) {
+
+    #main {
+        flex-direction: row;
+    }
+
+    #main > article {
+        flex: 3 60%;
+    }
+
+    #main > nav {
+        flex: 1 20%;
+    }
+
+    #main > aside {
+        flex: 1 20%;
+    }
+
+}

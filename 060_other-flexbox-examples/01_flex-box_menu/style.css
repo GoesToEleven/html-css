@@ -1,0 +1,26 @@
+.navigation {
+    background: deepskyblue;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.navigation a:hover {
+    background: royalblue;
+}
+
+.navigation li:last-of-type a {
+    border-bottom: none;
+}
+
+@media all and (min-width: 600px) {
+    .navigation a {
+        padding: 1em;
+    }
+}
