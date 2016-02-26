@@ -1,7 +1,5 @@
 body {
     display: flex;
-    /* this is the default: */
-    /*flex-flow: row nowrap;*/
 }
 
 div {

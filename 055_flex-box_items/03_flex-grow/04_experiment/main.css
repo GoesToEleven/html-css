@@ -1,8 +1,6 @@
 body {
     display: flex;
     flex-wrap: wrap;
-    /* this is the default: */
-    /*flex-flow: row nowrap;*/
 }
 
 div {
