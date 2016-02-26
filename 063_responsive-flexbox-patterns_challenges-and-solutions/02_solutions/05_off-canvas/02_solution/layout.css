@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.c1, .c2, .c3 {
+    width: 100%;
+}
+
+.c4 {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+}
+
+.c5 {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    z-index: 1;
+}
+
+@media (min-width: 600px) {
+    .c1 {
+        width: 60%;
+        order: 2;
+    }
+
+    .c2 {
+        width: 40%;
+        order: 1;
+    }
+
+    .c3 {
+        width: 100%;
+        order: 3;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .c2 {
+        width: 20%;
+    }
+
+    .c3 {
+        width: 20%;
+    }
+}

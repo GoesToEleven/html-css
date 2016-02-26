@@ -1,0 +1,59 @@
+header {
+    width: 980px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: tomato;
+    box-sizing: border-box;
+}
+
+#middle {
+    width: 980px;
+    height: 550px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+section {
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: blue;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+main {
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: green;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+aside {
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: orange;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+footer {
+    width: 980px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: tomato;
+    box-sizing: border-box;
+}

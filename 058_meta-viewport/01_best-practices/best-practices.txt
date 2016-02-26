@@ -1,0 +1,14 @@
+With responsive web pages, use the meta viewport tag to control the width and scaling of the browser's viewport.
+
+Include width=device-width to match the screen's width in device-independent pixels.
+
+Include initial-scale=1 to establish a 1:1 relationship between CSS pixels and device-independent pixels.
+
+Ensure your page is accessible by not disabling user scaling.
+
+Use this with RESPONSIVE web pages
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+What is RESPONSIVE?
+All content responds to changes in viewport size
+All content fits within the viewport
