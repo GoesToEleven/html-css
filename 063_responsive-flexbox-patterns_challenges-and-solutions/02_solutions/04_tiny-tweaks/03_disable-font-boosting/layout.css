@@ -1,0 +1,25 @@
+* {
+    /* Disable font boosting */
+    max-height: 1000000px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: none;
+}
+
+.c1 {
+    padding: 10px;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    .c1 {
+        padding: 20px;
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 800px) {
+    .c1 {
+        padding: 40px;
+        font-size: 2em;
+    }
+}

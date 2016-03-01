@@ -1,0 +1,34 @@
+* {
+    /* Disable font boosting */
+    max-height: 1000000px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: none;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.c1, .c2, .c3, .c4 {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .c1 {
+        width: 25%;
+    }
+
+    .c4 {
+        width: 75%;
+    }
+
+}
+
+@media (min-width: 800px) {
+    .container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,4 +1,4 @@
-These examples come from this Google Web Fundamentals:
+These examples come from Google's Web Fundamentals:
 
 Responsive web design patterns are quickly evolving, but there are a handful of established patterns that work well across the desktop and mobile devices
 

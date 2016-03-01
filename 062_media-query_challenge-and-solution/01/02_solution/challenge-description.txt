@@ -1,0 +1,7 @@
+Add media-queries to accomplish the following:
+- when the screen is 599px or less, the img has a blue border
+- when the screen is between 600px and 900px, the img has a green border
+- when the screen is 901px or more, the img has a orange border
+- when printed, the img should have a dashed gray border
+
+Add the media-queries in the main.css stylesheet
