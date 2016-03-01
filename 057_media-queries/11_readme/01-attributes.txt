@@ -15,14 +15,23 @@ Intended primarily for color computer screens.
 *** MEDIA FEATURES ***
 
 min-width
-any browser width over the value defined in the query.
+any browser width OVER the value defined in the query.
 
 max-width
-any browser width below the value defined in the query.
+any browser width BELOW the value defined in the query.
 
 min-height
-any browser height over the value defined in the query.
+any browser height OVER the value defined in the query.
 
 max-height
-any browser height below the value defined in the query.
+any browser height BELOW the value defined in the query.
+
+*** EXAMPLES ***
+css
+@media screen and (min-width:600px){
+	/* rule sets here */
+}
+
+html
+<link rel="stylesheet" media="screen and (max-width: 599px)" href="main-599-less.css">
 

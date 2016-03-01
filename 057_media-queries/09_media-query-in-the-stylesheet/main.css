@@ -4,6 +4,10 @@ body {
     margin: 0 auto;
 }
 
+section {
+    padding: 10px;
+}
+
 nav li {
     list-style-type: none;
     display: inline-block;
