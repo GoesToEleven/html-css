@@ -1,7 +1,0 @@
-https://developers.google.com/speed/docs/insights/ConfigureViewport
-
-https://developers.google.com/web/fundamentals/design-and-ui/responsive/fundamentals/set-the-viewport?hl=en
-
-https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html
-
-http://www.html5rocks.com/en/mobile/responsivedesign/
