@@ -1,22 +1,4 @@
-html {
-    background-color: blue;
-}
-
-body {
-    width: 50%;
-    margin: 0 auto;
-    padding: 20px;
-    border: 4px solid black;
-    background-color: #00C957;
-}
-
 img {
-    border: 20px groove orange;
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-}
-
-#element1 {
-    color: blue;
+    max-width: 100%;
+    height: auto;
 }
