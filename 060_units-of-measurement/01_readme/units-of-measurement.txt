@@ -1,16 +1,8 @@
-css length data type:
--relative: em, rem
--relative: vh, vw, vmin, vmax
+Units of Measurement:
+-relative to parent: %, em
+-relative to root: rem
+-relative to viewport: vh, vw, vmin, vmax
 -absolute: px,
-
-css percentage data type:
--relative: %
---defines size in terms of parent object
---Many length properties use percentages, such as width, margin and padding.
---Percentages can also be seen in font-size, where the size of the text is directly related to the size of its parent.
-
-
-
 
 SOURCES:
 https://developer.mozilla.org/en-US/docs/Web/CSS/length

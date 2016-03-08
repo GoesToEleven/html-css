@@ -1,13 +1,13 @@
 html {
-    font-size: 62.5%;
+    font-size: 10px;
 }
 
 article {
-    font-size: 200%;
+    font-size: 2vw;
 }
 
 section {
-    font-size: 200%;
+    font-size: 2vw;
 }
 
 h2:first-child {
