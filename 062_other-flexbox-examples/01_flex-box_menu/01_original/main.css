@@ -2,13 +2,8 @@
     list-style: none;
     margin: 0;
     background: deepskyblue;
-    /*FLEX*/
     display: flex;
     justify-content: flex-end;
-    /*these aren't need as they're the defaults*/
-    /*flex-direction: row;*/
-    /*flex-wrap: nowrap;*/
-    /*flex-flow: row nowrap;*/
 }
 
 .navigation a {
@@ -22,7 +17,6 @@
     background: cornflowerblue;
 }
 
-/* 600px AND LESS */
 @media all and (max-width: 600px) {
     .navigation {
         /*FLEX*/

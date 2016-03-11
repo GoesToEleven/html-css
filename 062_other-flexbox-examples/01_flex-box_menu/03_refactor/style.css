@@ -1,0 +1,28 @@
+.nav {
+    list-style: none;
+    background: deepskyblue;
+}
+
+.nav-a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    /*border-bottom: 4px solid rgba(255,0,0,0.7);*/
+}
+
+.nav-a:hover {
+    background: royalblue;
+}
+
+.nav-last {
+    border-bottom: none;
+}
+
+@media all and (min-width: 600px) {
+    .nav-a {
+        padding: 1em;
+    }
+}

@@ -7,14 +7,12 @@
     flex: 1 100%;
 }
 
-/*GREATER THAN 600px*/
 @media all and (min-width: 600px) {
     .aside { flex: 1 auto; }
 }
 
-/*GREATER THAN 800px*/
 @media all and (min-width: 800px) {
-    .main    { flex: 3 0px; }
+    .main    { flex: 3 0; }
     .aside-1 { order: 1; }
     .main    { order: 2; }
     .aside-2 { order: 3; }

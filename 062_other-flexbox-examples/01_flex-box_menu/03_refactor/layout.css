@@ -1,0 +1,21 @@
+html, body, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-a {
+    display: block;
+}
+
+@media all and (min-width: 600px) {
+    .nav {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}

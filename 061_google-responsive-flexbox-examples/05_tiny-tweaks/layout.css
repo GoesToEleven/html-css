@@ -1,18 +1,24 @@
-.c1 {
-    padding: 10px;
+html {
+    font-size: 62.5%;
+}
+
+.container {
     width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size: 1.6rem;
 }
 
 @media (min-width: 500px) {
-    .c1 {
-        padding: 20px;
-        font-size: 1.5em;
+    .container {
+        padding: 2rem;
+        font-size: 2.4rem;
     }
 }
 
 @media (min-width: 800px) {
-    .c1 {
-        padding: 40px;
-        font-size: 2em;
+    .container {
+        padding: 4rem;
+        font-size: 3.2rem;
     }
 }

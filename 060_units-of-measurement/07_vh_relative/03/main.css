@@ -7,7 +7,7 @@ html, body, img {
 img {
     height: 99vh;
     width: 99vw;
-    /*width: 99vmax;*/
+    /*width: 99vmin;*/
     /*width: 100%;*/
     /*max-width: 100%;*/
 }

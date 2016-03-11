@@ -1,9 +1,9 @@
-.wrapper {
+body {
     font-weight: bold;
     text-align: center;
 }
 
-.wrapper > * {
+body > * {
     padding: 10px;
 }
 
@@ -28,12 +28,10 @@
     background: hotpink;
 }
 
-/*GREATER THAN 600px*/
 @media all and (min-width: 600px) {
     body { padding: 0 2em; }
 }
 
-/*GREATER THAN 800px*/
 @media all and (min-width: 800px) {
     body { padding: 0 3em; }
 }
