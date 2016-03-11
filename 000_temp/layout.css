@@ -1,0 +1,8 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.foo1, .foo2, .foo3, .foo4 {
+    width: 100%;
+}
