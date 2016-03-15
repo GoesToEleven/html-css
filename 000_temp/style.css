@@ -1,19 +1,12 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*flex-flow: row nowrap;*/
+}
+
 div {
-    height: 300px;
-}
-
-.foo1 {
-    background-color: green;
-}
-
-.foo2 {
-    background-color: white;
-}
-
-.foo3 {
-    background-color: red;
-}
-
-.foo4 {
-    background-color: orange;
+    width: 20px;
+    height: 100px;
+    border: 1px solid black;
 }

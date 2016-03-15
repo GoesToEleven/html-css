@@ -3,4 +3,4 @@ Add media-queries to accomplish the following:
 - when the screen is between 600px and 900px, the img has a green border
 - when the screen is 901px or more, the img has a orange border
 
-Add all media-queries in individual stylesheets
+Add all media-queries in INDIVIDUAL STYLESHEETS

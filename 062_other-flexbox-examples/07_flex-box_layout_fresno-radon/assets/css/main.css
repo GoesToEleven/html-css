@@ -9,18 +9,10 @@ HEADER
 */
 
 header {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 5em;
 }
 
@@ -50,27 +42,15 @@ MAIN IMAGE
 */
 
 figure {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 figcaption {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2, h3 {
@@ -99,15 +79,9 @@ h3 {
 }
 
 .book-appointment {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 220px;
     height: 38px;
     background-color: #f00;
@@ -130,8 +104,6 @@ h3 {
 
 */
 
-
-
 /*
 =================
 ARTICLES
@@ -139,23 +111,15 @@ ARTICLES
 */
 
 section {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     padding-left: 70px;
     padding-right: 70px;
 }
 
 article {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     max-width: 1000px;
 }
 
@@ -181,18 +145,12 @@ p, section li {
 }
 
 .flex-column {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
 }
 
 .centers-button {
-    -webkit-align-self: center;
-        -ms-flex-item-align: center;
-            align-self: center;
+    align-self: center;
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -212,9 +170,7 @@ article img {
 }
 
 .right-aligns {
-    -webkit-align-self: flex-end;
-        -ms-flex-item-align: end;
-            align-self: flex-end;
+    align-self: flex-end;
 }
 
 cite a {
@@ -230,15 +186,9 @@ cite a:hover {
 }
 
 .divider {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
     margin-bottom: 40px;
 }
@@ -305,47 +255,27 @@ td, th {
 }
 
 .book-info {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
-    -webkit-align-content: center;
-        -ms-flex-line-pack: center;
-            align-content: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .book-item {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-flow: column nowrap;
-        -ms-flex-flow: column nowrap;
-            flex-flow: column nowrap;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-align-content: center;
-        -ms-flex-line-pack: center;
-            align-content: center;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
     margin: 0 15px 0 15px;
 }
 
 /*.book-item p {*/
-    /*margin: 0 auto;*/
+/*margin: 0 auto;*/
 /*}*/
 
 footer {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
 }
 
 footer div {
@@ -377,18 +307,13 @@ MEDIA QUERIES
 
     /*puts numbered list and image on each side of container*/
     div aside {
-        display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-justify-content: space-around;
-            -ms-flex-pack: distribute;
-                justify-content: space-around;
+        justify-content: space-around;
     }
 
     .divider span {
         width: 450px;
     }
-
 
 }
 
@@ -440,24 +365,14 @@ MEDIA QUERIES
     }
 
     ul {
-        display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-align-items: center;
-            -ms-flex-align: center;
-                align-items: center;
+        align-items: center;
     }
 
     li a {
-        display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-justify-content: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-align-items: center;
-            -ms-flex-align: center;
-                align-items: center;
+        justify-content: center;
+        align-items: center;
         padding-left: 15px;
         padding-right: 15px;
         margin-left: 10px;
@@ -473,15 +388,9 @@ MEDIA QUERIES
 
     /*adds line*/
     .line {
-        display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-justify-content: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-align-items: center;
-            -ms-flex-align: center;
-                align-items: center;
+        justify-content: center;
+        align-items: center;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -528,7 +437,6 @@ MEDIA QUERIES
     .line span {
         width: 330px;
     }
-
 
     .divider span {
         width: 850px;

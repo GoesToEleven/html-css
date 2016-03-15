@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-article, nav, aside {
+nav, article, aside {
     flex-grow: 1;
 }
 

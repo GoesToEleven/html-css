@@ -10,29 +10,17 @@ LANDING IMAGE
 
 body {
     /*layout*/
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-flow: column wrap;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
     height: 100vh;
 }
 
 header {
     /*layout*/
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     min-height: 55px;
     min-width: 100%;
     margin-top: 10px;
@@ -82,18 +70,10 @@ header {
 }
 
 .landing-content {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-flow: column wrap;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -110,21 +90,11 @@ h1 {
 
 .landing-section {
     /*layout*/
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-flow: column wrap;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-align-content: space-around;
-        -ms-flex-line-pack: distribute;
-            align-content: space-around;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
     min-width: 100%;
     /*background formatting*/
     background: rgba(255,255,255,0.1);
@@ -143,18 +113,10 @@ h1 {
 /* BUTTON */
 .make-great-button {
     /* layout */
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-align-self: center;
-        -ms-flex-item-align: center;
-            align-self: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
     width: 220px;
     height: 38px;
     margin-top: 10px;
@@ -171,18 +133,10 @@ h1 {
 
 nav {
     /* layout */
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
     min-width: 100%;
     /* font */
     font-family: 'Lato',sans-serif;
@@ -221,15 +175,9 @@ MEDIA QUERIES
         background-size: cover;
     }
     header {
-        -webkit-flex-flow: column wrap;
-            -ms-flex-flow: column wrap;
-                flex-flow: column wrap;
-        -webkit-justify-content: flex-start;
-            -ms-flex-pack: start;
-                justify-content: flex-start;
-        -webkit-align-items: center;
-            -ms-flex-align: center;
-                align-items: center;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
     }
     .landing-quote {
         width: 97% !important;
@@ -238,9 +186,7 @@ MEDIA QUERIES
         display: none;
     }
     header {
-        -webkit-justify-content: flex-start;
-            -ms-flex-pack: start;
-                justify-content: flex-start;
+        justify-content: flex-start;
     }
     nav {
         margin-bottom: 7px;
@@ -254,12 +200,8 @@ MEDIA QUERIES
         background-size: cover;
     }
     header {
-        -webkit-flex-flow: row wrap;
-            -ms-flex-flow: row wrap;
-                flex-flow: row wrap;
-        -webkit-justify-content: space-around;
-            -ms-flex-pack: distribute;
-                justify-content: space-around;
+        flex-flow: row wrap;
+        justify-content: space-around;
     }
     .landing-quote {
         width: 55%;
