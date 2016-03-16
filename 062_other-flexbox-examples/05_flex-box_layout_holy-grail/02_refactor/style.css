@@ -1,0 +1,44 @@
+body {
+    font: 24px Helvetica;
+    background: #999999;
+}
+
+header, footer {
+    display: block;
+    margin: 4px;
+    padding: 5px;
+    min-height: 100px;
+    border: 1px solid #eebb55;
+    border-radius: 7pt;
+    background: #ffeebb;
+}
+
+div {
+    min-height: 550px;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #cccc33;
+    border-radius: 7pt;
+    background: #dddd88;
+}
+
+nav {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #8888bb;
+    border-radius: 7pt;
+    background: #ccccff;
+}
+
+aside {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #8888bb;
+    border-radius: 7pt;
+    background: #ccccff;
+}

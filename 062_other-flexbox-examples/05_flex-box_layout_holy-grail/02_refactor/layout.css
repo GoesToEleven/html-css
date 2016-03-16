@@ -1,0 +1,37 @@
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+nav, article, aside {
+    flex-grow: 1;
+}
+
+@media all and (min-width: 640px) {
+
+    div {
+        flex-direction: row;
+    }
+
+    article {
+        flex-grow: 3;
+        flex-shrink: 1;
+        flex-basis: 60%
+        /*flex: 3 60%;*/
+    }
+
+    nav {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 20%
+        /*flex: 1 20%;*/
+    }
+
+    aside {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 20%
+        /*flex: 1 20%;*/
+    }
+
+}

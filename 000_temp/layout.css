@@ -1,8 +1,24 @@
-body {
+nav {
     display: flex;
-    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
-.foo1, .foo2, .foo3, .foo4 {
-    width: 100%;
+.header-nav-left {
+    height: 50px;
+    width: 33%;
+}
+
+.header-nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    margin-right: 20px;
 }
