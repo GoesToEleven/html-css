@@ -1,6 +1,12 @@
 body {
-    background: url(../pic/fog.jpg) no-repeat top center fixed;
+    background-image: url("../pic/fog.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
     background-size: cover;
+    /* BEFORE REFACTOR: */
+    /*background: url(img/fog.jpg) no-repeat top center fixed;*/
+    /*background-size: cover;*/
 }
 
 h1 {

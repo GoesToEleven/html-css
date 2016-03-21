@@ -1,5 +1,5 @@
 body {
     background-image: url("01.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 600px;
 }
