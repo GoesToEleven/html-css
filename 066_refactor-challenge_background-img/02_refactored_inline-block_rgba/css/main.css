@@ -1,4 +1,5 @@
 body {
+    font-size: 1.6rem;
     background-image: url("../pic/fog.jpg");
     background-repeat: no-repeat;
     background-position: top center;
@@ -12,18 +13,18 @@ body {
 h1 {
     color: #094562;
     text-align: center;
-    font-size: 48px;
+    font-size: 4.8rem;
 }
 
 nav {
     width: 50%;
-    margin: 20px auto;
+    margin: 2rem auto;
     text-align: center;
 }
 
 li {
     display: inline-block;
-    margin: 20px;
+    margin: 2rem;
 }
 
 li:hover {
@@ -31,9 +32,9 @@ li:hover {
 }
 
 section {
-    height:250px;
+    height:25rem;
     text-align: center;
-    margin: 20px;
+    margin: 2rem;
 }
 
 #s1 {
