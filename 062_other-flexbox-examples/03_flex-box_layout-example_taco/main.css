@@ -1,19 +1,20 @@
 body {
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
+    flex-flow: row wrap;
+}
+
+nav {
+    width: 15%;
+}
+
+main {
+    width: 80%;
+    padding: 10px;
 }
 
 nav, main {
     border: 2px solid red;
     box-sizing: border-box;
-}
-
-nav {
-    width: 200px;
-}
-
-main {
-    flex: 1 1 auto;
-    /*flex-grow: 1;*/
 }
