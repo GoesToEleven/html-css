@@ -1,0 +1,34 @@
+body, html, header, article, aside, footer {
+    padding: 10px;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header, article, aside, footer {
+    width: 100%;
+}
+
+@media all and (min-width: 600px) {
+    aside {
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 800px) {
+    aside {
+        width: 15%;
+    }
+    article {
+        width: 70%;
+    }
+    .aside-1 { order: 1; }
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+}

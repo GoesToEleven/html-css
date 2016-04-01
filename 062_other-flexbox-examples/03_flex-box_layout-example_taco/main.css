@@ -1,3 +1,10 @@
+nav, ul, li, main, section {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     width: 80%;
     margin: 20px auto;
@@ -6,15 +13,42 @@ body {
 }
 
 nav {
-    width: 15%;
+    width: 100%;
 }
 
 main {
-    width: 80%;
+    width: 100%;
     padding: 10px;
 }
 
 nav, main {
     border: 2px solid red;
-    box-sizing: border-box;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and (min-width: 900px) {
+    nav {
+        width: 15%;
+    }
+
+    main {
+        width: 85%;
+        padding: 10px;
+    }
+
+    li {
+        display: block;
+        text-align: left;
+        padding: 5px;
+    }
 }

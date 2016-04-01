@@ -1,0 +1,17 @@
+header, div, nav, article, aside, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer, nav, article, aside {
+    padding: 20px 0;
+    border: 2px solid black;
+    background: #ffeebb;
+    text-align: center;
+}
+
+div {
+    min-height: 150px;
+}
