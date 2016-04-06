@@ -1,0 +1,29 @@
+#waikiki {
+    background-image: url("../img/hawaii-lg-30.jpg");
+}
+
+/* DESKTOP MENU */
+#logo {
+    margin-left: 2rem;
+}
+
+nav {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-lg {
+    display: flex;
+    margin-right: 2rem;
+}
+
+.nav-lg-itm {
+    width: 13rem;
+    text-align: center;
+}
+
+
+/* MOBILE MENU DISABLE */
+.nav-mobile {
+    display: none;
+}

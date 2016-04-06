@@ -17,11 +17,11 @@ html, body, main, section, header, footer, nav, div, h1, h2, p, a {
 }
 
 body {
-    background-position: left;
+    background-color:#464646;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: left;
     background-size: cover;
-    background-color:#464646;
 }
 
 a {

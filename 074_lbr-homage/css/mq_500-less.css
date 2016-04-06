@@ -1,0 +1,37 @@
+#waikiki {
+    background-image: url("../img/hawaii-sm-07.jpg");
+}
+
+#logo {
+    width: 100%;
+}
+
+/* DESKTOP MENU DISABLE */
+.nav-lg {
+    display: none;
+}
+
+/* MOBILE MENU ON BOTTOM */
+.nav-mobile {
+    display: flex;
+    flex-direction: column;
+    background: deepskyblue;
+}
+
+.nav-mobile li {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.nav-mobile li:hover {
+    background: royalblue;
+}
+
+.nav-mobile-item-last {
+    border-bottom: none;
+}
