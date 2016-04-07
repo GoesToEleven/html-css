@@ -1,15 +1,19 @@
 * {
-    /*border: 1px solid deeppink;*/
+    border: 1px solid deeppink;
 }
 
 html {
     font-size: 62.5%;
 }
 
-body, ul, li {
+html, body {
+    width: 100%;
+}
+
+html, body, nav, a, ul, li {
     padding: 0;
     margin: 0;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 a {

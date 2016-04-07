@@ -9,17 +9,24 @@
 
 nav {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .nav-lg {
     display: flex;
+    width: 440px;
     margin-right: 2rem;
 }
 
 .nav-lg-itm {
-    width: 13rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-lg-itm:nth-child(n) {
+    flex: 1 1 auto;
+    color: red;
 }
 
 
