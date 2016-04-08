@@ -36,6 +36,7 @@ nav {
     justify-content: center;
     align-items: center;
     color: #333;
+    border-radius: 10px;
 }
 
 .nav-lg-itm a:hover {
@@ -43,6 +44,16 @@ nav {
     background-color: #ffffe0;
 }
 
+#c2a-btn {
+    font-size: 1.8rem;
+    padding: 1.5rem 6rem;
+    background-color: #333;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1;
+
+}
 
 /* MOBILE MENU DISABLE */
 .nav-mobile {
