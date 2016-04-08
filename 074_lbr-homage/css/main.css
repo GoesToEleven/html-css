@@ -32,26 +32,38 @@ li {
 /* ABOVE THE FOLD */
 /* rulesets to show certain content above the fold */
 
+/* these elements will take up the whole page above the fold */
 html, body, #atf {
     height: 100%;
 }
 
+/* #atf contains: */
+/*      header */
+/*      hero image (#hero-img) */
+/*      call to action (#c2a) */
 #atf {
     display: flex;
     flex-direction: column;
 }
 
+/* set the hero image */
 #hero-img {
-    flex-grow: 1;
     background-color: #8e8e8e;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top center;
     background-size: cover;
+    /* grow the hero image to fill in unused space */
+    flex-grow: 1;
 }
 
 /* HEADER */
 
+/* header will contain: */
+/*      all screen sizes (resolutions): */
+/*              the logo: THE ENDLESS JOURNEY */
+/*      large screen sizes (resolutions): */
+/*              navigation links: SPONSORS / MUSIC / PICTURES / MAP / BLOG */
 header {
     font-family: 'Roboto', sans-serif;
     color: #333;
@@ -65,7 +77,7 @@ header {
     border-bottom: 1px solid rgba(0,0,0,0.3);
 }
 
-/* logo: the endless journey */
+/* logo: THE ENDLESS JOURNEY */
 #logo {
 
     /* make large touch-target */
@@ -83,6 +95,7 @@ header {
     align-items: center;
 }
 
+/* change the logo's text color when mouse hover's over it */
 #logo:hover {
     color: #0266C8;
 }
