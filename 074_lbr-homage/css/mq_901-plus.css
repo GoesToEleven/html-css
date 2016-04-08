@@ -1,32 +1,46 @@
 #waikiki {
-    background-image: url("../img/hawaii-lg-30.jpg");
+    background-image: url("../img/adventure-lg.jpg");
 }
 
-/* DESKTOP MENU */
 #logo {
     margin-left: 2rem;
 }
 
 nav {
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .nav-lg {
-    display: flex;
+    height: 100%;
     width: 440px;
+    display: flex;
+    align-items: center;
     margin-right: 2rem;
 }
 
 .nav-lg-itm {
-    text-align: center;
+    height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .nav-lg-itm:nth-child(n) {
     flex: 1 1 auto;
-    color: red;
+}
+
+.nav-lg-itm a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.nav-lg-itm a:hover {
+    color: #0266C8;
+    background-color: #ffffe0;
 }
 
 
