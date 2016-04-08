@@ -2,8 +2,8 @@
     background-image: url("../img/adventure-sm.jpg");
 }
 
-nav {
-    align-items: center;
+header {
+    /*align-items: center;*/
 }
 
 #logo {
