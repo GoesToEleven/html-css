@@ -12,7 +12,7 @@ html {
     font-size: 62.5%;
 }
 
-html, body, header, main, section, footer, div, a, ul, li, h1, h2 {
+html, body, header, main, section, article, footer, div, a, ul, li, h1, h2, h3, p {
     /* simple reset - resets browser's default styling */
     padding: 0;
     margin: 0;
@@ -115,7 +115,6 @@ header {
 }
 
 /* CALL TO ACTION (cta) */
-
 #cta {
 
     /* set the height of the cta container */
@@ -198,8 +197,45 @@ header {
 }
 
 /* ------------------------------------------- */
-/* BELOW THE FOLD */
+/* BELOW THE FOLD (btf) */
 /* ------------------------------------------- */
+
+/* create flex containers for
+        images
+        articles
+*/
+.btf-images, .btf-articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* images */
+.btf-images div {
+    margin: 5px;
+}
+
+/* articles */
+.btf-articles article {
+    padding: 10px;
+}
+
+.btf-articles h3 {
+    /* font format */
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.btf-articles p {
+    /* font format */
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
 
 /* MOBILE MENU ON BOTTOM */
 /* nav mobile (nm) */
