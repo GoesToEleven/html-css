@@ -12,7 +12,7 @@ html {
     font-size: 62.5%;
 }
 
-html, body, nav, a, ul, li, main, section, h1 {
+html, body, nav, a, ul, li, main, section, h1, h2 {
     /* simple reset - resets browser's default styling */
     padding: 0;
     margin: 0;
@@ -40,7 +40,7 @@ html, body, #atf {
 /* #atf contains: */
 /*      header */
 /*      hero image (#hero-img) */
-/*      call to action (#c2a) */
+/*      call to action (#cta) */
 #atf {
     display: flex;
     flex-direction: column;
@@ -100,48 +100,64 @@ header {
     color: #0266C8;
 }
 
-li {
-    font-size: 1.75rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
+/* CALL TO ACTION */
 
-main {
-    width: 100%;
-}
+#cta {
 
-#c2a {
-    width: 100%;
+    /* set the height of the cta container */
     height: 170px;
+
+    /* set the color of the cta container */
     background-color: #f5f5f5;
+
+    /* center text and button containers */
+    /*      #cta-txt, #cta-btn */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*padding: 0 300px 0 100px;*/
 }
 
-#c2a-plug {
-    width: 100%;
+#cta-txt {
+
+    /* format text */
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
     font-size: 3.5rem;
     letter-spacing: 2px;
     color: #333;
+
+    /* center text old fashioned-way */
     text-align: center;
 }
 
-#c2a-btn {
+#cta-btn {
+
+    /* button's width */
     width: 20rem;
+
+    /* button's height */
     height: 100%;
-    background-color: #333;
-    border-radius: 5px;
+    margin: 1.3rem 0;
+
+    /* format text */
+    font-family: 'Roboto Slab', serif;
     font-weight: 300;
     line-height: 1;
+
+    /* format button */
+    background-color: #333;
+    border-radius: 5px;
+
+    /* center child anchor element */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#c2a-btn a {
-    /*padding: 100%;*/
+#cta-btn a {
+
+    flex-grow: 1;
     color: #fff;
     font-size: 1.8rem;
     background-color: #333;
