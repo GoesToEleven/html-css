@@ -12,7 +12,7 @@ html {
     font-size: 62.5%;
 }
 
-html, body, nav, a, ul, li, main, section, h1, h2 {
+html, body, header, main, section, footer, div, a, ul, li, h1, h2 {
     /* simple reset - resets browser's default styling */
     padding: 0;
     margin: 0;
@@ -80,8 +80,14 @@ header {
 /* logo: THE ENDLESS JOURNEY */
 #logo {
 
-    /* make large touch-target */
+    /* make a large touch target */
+    /* expand the element to fill height */
     height: 100%;
+
+    /* make a large touch target */
+    /* expand the element to fill width
+    along primary axis ( horizontally ) */
+    flex-grow: 1;
 
     /* font styling */
     color: #333;
@@ -98,6 +104,14 @@ header {
 /* change the logo's text color when mouse hover's over it */
 #logo:hover {
     color: #0266C8;
+}
+
+
+/* disable menu in header */
+/* on small devices, menu is displayed below the fold */
+/* nd = nav desktop */
+.nd {
+    display: none;
 }
 
 /* CALL TO ACTION */
@@ -137,7 +151,7 @@ header {
     width: 20rem;
 
     /* button's height */
-    height: 100%;
+    height: 5rem;
     margin: 1.3rem 0;
 
     /* format text */
@@ -157,11 +171,88 @@ header {
 
 #cta-btn a {
 
+    /* make a large touch target */
+    /* expand the anchor element to fill height */
+    height: 100%;
+
+    /* make a large touch target */
+    /* expand the anchor element to fill width along primary axis ( horizontally ) */
     flex-grow: 1;
+
+    /* format font */
     color: #fff;
     font-size: 1.8rem;
-    background-color: #333;
-    border-radius: 5px;
     font-weight: 300;
-    line-height: 1;
+
+    /* format anchor dimsions match the containing h2 element #cta-btn */
+    border-radius: 5px;
+
+    /* center the text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cta-btn a:hover {
+    background-color: #0ebfe9;
+}
+
+/* ------------------------------------------- */
+/* BELOW THE FOLD */
+/* ------------------------------------------- */
+
+/* MOBILE MENU ON BOTTOM */
+/* nm = nav mobile */
+
+.nm {
+    display: flex;
+    flex-direction: column;
+    background: deepskyblue;
+}
+
+.nm li {
+
+    /* dimensions */
+    width: 100%;
+    height: 4.5rem;
+
+    /* border */
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+
+    /* child elements positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nm li a {
+    /* make a large touch target */
+    /* expand the anchor element to fill height */
+    height: 100%;
+
+    /* make a large touch target */
+    /* expand the anchor element to fill width along primary axis ( horizontally ) */
+    flex-grow: 1;
+
+    /* font format */
+    color: white;
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+
+    /* child elements positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nm li:hover {
+    background: royalblue;
+}
+
+.nm li:last-child {
+    border-bottom: none;
 }
