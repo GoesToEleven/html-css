@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
@@ -22,9 +23,53 @@
     </symbol>
 </svg>
 
-<svg><use xlink:href="#play"></use></svg>
-<svg><use xlink:href="#cross"></use></svg>
-<svg><use xlink:href="#newspaper"></use></svg>
+<h1>Without CSS</h1>
+<svg aria-hidden="true">
+    <use xlink:href="#play"></use>
+</svg>
+<svg aria-hidden="true">
+    <use xlink:href="#cross"></use>
+</svg>
+<svg aria-hidden="true">
+    <use xlink:href="#newspaper"></use>
+</svg>
+
+<h1>With Container CSS:</h1>
+
+<pre>color: deepskyblue;</pre>
+
+<div id="somecontainer">
+
+    <svg class="Icon Icon--arrow" aria-hidden="true">
+        <use xlink:href="#play"></use>
+    </svg>
+
+    <svg class="Icon Icon--arrow" aria-hidden="true">
+        <use xlink:href="#cross"></use>
+    </svg>
+
+    <svg class="Icon Icon--arrow" aria-hidden="true">
+        <use xlink:href="#newspaper"></use>
+    </svg>
+
+</div>
+
+<pre>color: #00C957;<br>font-size: 10rem;</pre>
+<div id="somecontainer2">
+
+    <svg class="Icon Icon--arrow" aria-hidden="true">
+        <use xlink:href="#play"></use>
+    </svg>
+
+    <svg class="Icon Icon--arrow" aria-hidden="true">
+        <use xlink:href="#cross"></use>
+    </svg>
+
+    <svg class="Icon Icon--arrow" aria-hidden="true">
+        <use xlink:href="#newspaper"></use>
+    </svg>
+
+</div>
 
 </body>
 </html>
