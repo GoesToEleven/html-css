@@ -7,7 +7,7 @@
     font-size: 10rem;
 }
 
-.Icon {
+.icon {
     /* Allows sizing by changing the icon’s font-size */
     width: 1em; height: 1em;
     /* Nice visual alignment for icons alongside text */

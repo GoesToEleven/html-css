@@ -1,10 +1,12 @@
-#somecontainer {
-    color: deepskyblue;
+html, body {
+    height: 100%;
 }
 
-#somecontainer2 {
-    color: #00C957;
-    font-size: 10rem;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon {
@@ -19,10 +21,18 @@
     overflow: hidden;
 }
 
-pre {
-    display: inline-block;
-    padding: 5px 10px;
-    width: 175px;
-    border: 2px solid black;
-    background-color: #d5dfef;
+.icon-black {
+    fill: black;
+    stroke: black;
+    stroke-width: 5%;
+    stroke-linejoin: round;
+    font-size: 25rem;
+}
+
+.icon-goldstar {
+    fill: gold;
+    stroke: coral;
+    stroke-width: 5%;
+    stroke-linejoin: round;
+    font-size: 25rem;
 }

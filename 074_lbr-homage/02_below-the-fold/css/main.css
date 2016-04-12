@@ -2,7 +2,7 @@
 
 * {
     /* for debugging: show border around elements */
-    /*border: 1px solid deeppink;*/
+    border: 1px solid deeppink;
 }
 
 html {
@@ -213,7 +213,7 @@ header {
 }
 
 /* images */
-.btf-images div {
+.btf-images img {
     margin: 5px;
 }
 
