@@ -4,7 +4,7 @@
 
 #somecontainer2 {
     color: #00C957;
-    font-size: 10rem;
+    font-size: 2rem;
 }
 
 .icon {
@@ -16,7 +16,7 @@
     fill: currentColor;
     /* Paths and strokes that overflow the viewBox can show in IE.
        If you use normalize.css, it already sets this. */
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 * {

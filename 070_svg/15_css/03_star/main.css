@@ -1,3 +1,26 @@
+html, body, div, svg {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    border: 10px solid green;
+}
+
+body {
+    border: 10px solid black;
+}
+
+div {
+    border: 10px solid blue;
+}
+
+svg {
+    border: 4px solid purple;
+}
+
 html, body {
     height: 100%;
 }
@@ -26,7 +49,7 @@ body {
     stroke: black;
     stroke-width: 5%;
     stroke-linejoin: round;
-    font-size: 25rem;
+    font-size: 20rem;
 }
 
 .icon-goldstar {
@@ -34,5 +57,5 @@ body {
     stroke: coral;
     stroke-width: 5%;
     stroke-linejoin: round;
-    font-size: 25rem;
+    font-size: 20rem;
 }
