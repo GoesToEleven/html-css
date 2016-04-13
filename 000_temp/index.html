@@ -6,38 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
 
-        * {
-            border: 1px solid hotpink;
+        html, body {
+            height: 100%;
         }
 
-        header {
+        body {
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 400px;
         }
 
-        a, ul {
-            flex-grow: 1;
+        div {
+            width: 70%;
+            height: 250px;
+            border: 3px solid hotpink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
+
+        p {
+            font-size: 5rem;
+            text-transform: uppercase;
+            border: 1px solid black;
+        }
+
+        span {
+            vertical-align: 40px;
+        }
+
+
 
     </style>
 </head>
 <body>
 
-<header>
-    <a href="#" id="logo">The Endless Journey</a>
-    <!-- nd = nav desktop -->
-    <ul class="nd">
-        <!-- nd-i = nav desktop item -->
-        <li class="nd-i"><a href="#">Sponsors</a></li>
-        <li class="nd-i"><a href="#">Music</a></li>
-        <li class="nd-i"><a href="#">Pictures</a></li>
-        <li class="nd-i"><a href="#">Map</a></li>
-        <li class="nd-i"><a href="#">Blog</a></li>
-    </ul>
-</header>
+<div>
+    <p>Here is some <span>X</span> content</p>
+</div>
 
 </body>
 </html>

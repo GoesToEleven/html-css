@@ -16,8 +16,28 @@
     fill: currentColor;
     /* Paths and strokes that overflow the viewBox can show in IE.
        If you use normalize.css, it already sets this. */
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
+
+* {
+    border: 1px solid hotpink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 pre {
     display: inline-block;
