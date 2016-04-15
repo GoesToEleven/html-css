@@ -85,3 +85,4 @@ Look carefully at both examples, in the second, why does the absolutely position
 
 * sources: 
  * http://www.w3schools.com/css/css_positioning.asp
+* <small>Created by Allen J. Mills,[(Github)](https://github.com/FelixVicis) (4/14/16)<small>

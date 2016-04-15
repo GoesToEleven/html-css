@@ -16,9 +16,9 @@ In this lesson, we will focus on the position properties of *static* and *relati
 2. **Relative**
     ```css
     .relative-me {
-    position: relative;
-    left: 10 px;
-    border: 3px solid black;    
+        position: relative;
+        left: 10 px;
+        border: 3px solid black;    
     }
     ```
   Relatively positioned objects will position themselves relative to their neighboring parents. As you can imagine; a div within body will position itself relative of the page, a picture within the div will do the same after the div's positioning ect. ect..
@@ -86,3 +86,4 @@ Watch closely as to what happens when you change the div specially marked from r
 
 * sources: 
  * http://www.w3schools.com/css/css_positioning.asp
+* <small>Created by Allen J. Mills,[(Github)](https://github.com/FelixVicis) (4/14/16)<small>

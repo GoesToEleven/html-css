@@ -5,6 +5,7 @@ Summary: Using the `position:<kind>;` property, you may specify the type of posi
 In this lesson, we will focus on the position property of *fixed* specifically. There will be a code demo at the bottom.
 
 2. **Fixed**
+
     ```css
     .fix-me {
         position: fixed;
@@ -81,3 +82,4 @@ Look for these things while interacting with this demo:
 
 * sources: 
  * http://www.w3schools.com/css/css_positioning.asp
+* <small>Created by Allen J. Mills,[(Github)](https://github.com/FelixVicis) (4/14/16)<small>
