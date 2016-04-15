@@ -8,8 +8,9 @@ html, body, header {
 
 header {
     background-color: gray;
-    background-image: url(bird.jpg);
-    background-size: cover;
+    background-image: url(tree.svg);
+    background-size: contain;
     /*border: 10px solid hotpink;*/
-    background-position: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
