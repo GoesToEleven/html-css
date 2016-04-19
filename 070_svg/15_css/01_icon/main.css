@@ -3,16 +3,16 @@
 }
 
 #somecontainer2 {
-    color: #00C957;
+    color: red;
     font-size: 2rem;
 }
 
 .icon {
-    /* Allows sizing by changing the icon’s font-size */
+    /* Allows sizing by changing the icon’s font-size ... em looks to the parent's font then takes a multiple of that ... whatever the font of the container, (the parent) our icon will be a multiple of 1 of that */
     width: 1em; height: 1em;
     /* Nice visual alignment for icons alongside text */
     vertical-align: -0.15em;
-    /* Default path fill = value of the color property */
+    /* Default path fill = value of the color property ... currentColor takes the color of the parent ... whatever the color of the container (the parent) our icon will be that color */
     fill: currentColor;
     /* Paths and strokes that overflow the viewBox can show in IE.
        If you use normalize.css, it already sets this. */
@@ -23,22 +23,7 @@
     border: 1px solid hotpink;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* text formatting */
 pre {
     display: inline-block;
     padding: 5px 10px;
