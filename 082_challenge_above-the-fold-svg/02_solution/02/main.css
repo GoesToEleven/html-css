@@ -7,10 +7,39 @@ html, body, header {
 }
 
 header {
-    background-color: gray;
-    background-image: url(tree.svg);
-    background-size: contain;
-    /*border: 10px solid hotpink;*/
-    background-position: bottom;
-    background-repeat: no-repeat;
+    border: 10px solid hotpink;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.icon {
+    /* Allows sizing by changing the icon’s font-size */
+    width: 1em; height: 1em;
+    /* Nice visual alignment for icons alongside text */
+    vertical-align: -0.15em;
+    /* Default path fill = value of the color property */
+    fill: currentColor;
+    /* Paths and strokes that overflow the viewBox can show in IE.
+       If you use normalize.css, it already sets this. */
+    overflow: hidden;
+}
+
+.icon-lg {
+    font-size: 20rem;
+}
+
+.icon-gold {
+    fill: gold;
+    stroke: coral;
+    stroke-width: 5%;
+    stroke-linejoin: round;
+    font-size: 20rem;
+}
+
+svg, use {
+    width: 100%;
+    height: 100%;
+    border: 10px solid hotpink;
 }
