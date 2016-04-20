@@ -26,10 +26,6 @@ header {
     overflow: hidden;
 }
 
-.icon-lg {
-    font-size: 20rem;
-}
-
 .icon-gold {
     fill: gold;
     stroke: coral;
