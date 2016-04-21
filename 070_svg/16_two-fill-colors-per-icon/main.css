@@ -1,10 +1,23 @@
-#somecontainer {
-    color: deepskyblue;
+html, body, svg {
+    padding: 0;
+    border: 0;
+    margin: 0;
 }
 
-.somecontainer2 {
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: red;
-    font-size: 3rem;
+}
+
+svg {
+    margin: 4vw;
 }
 
 .icon {
@@ -19,25 +32,12 @@
     overflow: hidden;
 }
 
-.overwrite {
-    /* Change the width and height */
-    font-size: 40px;
-    /* Change the fill color */
-    color: purple;
-    /* Change the vertical-align if you need more precision
-       (sometimes needed for pixel-perfect rendering) */
-    /*vertical-align: top;*/
+.iconColor {
+    fill: darkkhaki;
+    color: firebrick;
 }
 
-/* text formatting */
-pre {
-    display: inline-block;
-    padding: 5px 10px;
-    width: 425px;
-    border: 2px solid black;
-    background-color: #d5dfef;
-}
-
-div, svg {
-    /*border: 1px solid black;*/
+.iconColor2 {
+    fill: mediumturquoise;
+    color: rebeccapurple;
 }

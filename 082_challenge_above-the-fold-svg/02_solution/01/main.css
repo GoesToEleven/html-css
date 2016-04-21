@@ -7,7 +7,7 @@ html, body, header {
 }
 
 header {
-    background-color: gray;
+    background-color: rgba(244, 194, 13, .7);
     background-image: url(tree.svg);
     background-size: contain;
     /*border: 10px solid hotpink;*/
