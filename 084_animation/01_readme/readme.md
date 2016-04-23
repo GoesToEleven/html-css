@@ -130,3 +130,27 @@ animation-direction: inherit;
 animation-direction: initial;
 animation-direction: unset;
 ```
+# animation-timing-function
+
+**default value: **
+
+The animation-timing-function CSS property specifies how a CSS animation should progress over the duration of each cycle. 
+
+```css
+/* Keyword values */
+animation-timing-function: ease;
+animation-timing-function: ease-in;
+animation-timing-function: ease-out;
+animation-timing-function: ease-in-out;
+animation-timing-function: linear;
+animation-timing-function: step-start;
+animation-timing-function: step-end;
+
+/* Multiple animations */
+animation-timing-function: ease, step-start;
+
+/* Global values */
+animation-timing-function: inherited;
+animation-timing-function: initial;
+animation-timing-function: unset;
+```
