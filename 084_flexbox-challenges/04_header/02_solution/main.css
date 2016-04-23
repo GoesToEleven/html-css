@@ -1,5 +1,5 @@
 * {
-    border: 1px solid hotpink;
+    /*border: 1px solid hotpink;*/
 }
 
 html {
@@ -8,7 +8,7 @@ html {
 
 html, body, header, nav, button, div, main, h1 {
     padding: 0;
-    /*border: 0;*/
+    border: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -61,7 +61,7 @@ header {
     height: 75px;
     /* sets formatting on header */
     background-color: gray;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid darkgray;
     /*
     header's immediate direct children
     will be on the left and the right
@@ -83,7 +83,6 @@ nav {
 
 .icon-sm-in {
     font-size: 1.4rem;
-    padding: 10px 30px;
 }
 
 button {
@@ -95,11 +94,10 @@ button {
     background-color: inherit;
     /* turn pointer into finger */
     cursor: pointer;
-    /*  */
-    /* center immediate direct children */
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
+    /* center immediate direct children (the text) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button:hover {
