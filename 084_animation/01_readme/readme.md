@@ -18,7 +18,7 @@ A css property which is shorthand for the following properties - this shows the 
 
 # animation-name
 
-default value: **none**
+**default value: none**
 
 The animation-name CSS property specifies a *list of animations* that should be applied to the **selected element**. 
 
@@ -39,4 +39,56 @@ animation-name: none, -moz-specific, sliding;
 animation-name: initial
 animation-name: inherit
 animation-name: unset
+```
+# @keyframes
+
+The **@keyframes** CSS at-rule lets authors control the intermediate steps in a CSS animation sequence by establishing **keyframes** (or waypoints) along the animation sequence that must be reached by certain points during the animation. 
+
+To use keyframes, you create a **@keyframes** rule with a **name** that is then used by the **animation-name** property to match an animation to its keyframe list. 
+
+```css
+body {
+    animation-name: change-color;
+}
+
+@keyframes change-color {
+  0% { color: red; }
+  100%   { color: gold; }
+}
+```
+
+Each **@keyframes** rule contains a **style list** of keyframe selectors, each of which is comprised of a percentage along the animation at which the keyframe occurs as well as a block containing the style information for that keyframe.
+
+You can list the keyframes in any order; they will be handled in the order in which their specified percentages indicate they should occur.
+
+You can also use the "from" and "to" keywords:
+
+```css
+body {
+    animation-name: change-color;
+}
+
+@keyframes change-color {
+  from { color: red; }
+  to   { color: gold; }
+}
+```
+
+In order for a keyframe list to be valid, it must include rules for at least the times 0% (or from) and 100% (or to) (that is, the starting and ending states of the animation). If both of these time offsets aren't specified, the keyframe declaration is invalid; as such, it will be ignored by the parser and can't be used for animation.
+
+If you include properties that can't be animated in your keyframe rules they get ignored, but supported properties will still be animated.
+
+# animation-duration
+
+**default value: 0s**
+
+The animation-duration CSS property specifies the length of time that an animation should take to complete one cycle.
+
+Examples:
+
+```
+animation-duration: 6s;
+animation-duration: 120ms;
+animation-duration: 1s, 15s;
+animation-duration: 10s, 30s, 230ms;
 ```
