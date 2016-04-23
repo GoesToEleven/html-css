@@ -1,0 +1,30 @@
+* {
+    border: 1px solid hotpink;
+}
+
+html {
+    font-size: 1vw;
+}
+
+html, body, div, footer {
+    padding: 0;
+    /*border: 0;*/
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body, #atf {
+    height: 100%;
+}
+
+body {
+    color: white;
+}
+
+footer {
+    border-top: 2px solid gray;
+    /* arrange footer's child elements */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
