@@ -18,7 +18,7 @@ A css property which is shorthand for the following properties - this shows the 
 
 # animation-name
 
-## default value: none
+default value: **none**
 
 The animation-name CSS property specifies a *list of animations* that should be applied to the **selected element**. 
 
