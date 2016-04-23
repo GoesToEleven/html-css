@@ -9,10 +9,10 @@ CSS Animations
 A css property which is shorthand for the following properties - this shows the properties and their default values:
 * animation-name: none
 * animation-duration: 0s
-* animation-timing-function: ease
-* animation-delay: 0s
 * animation-iteration-count: 1
 * animation-direction: normal
+* animation-timing-function: ease
+* animation-delay: 0s
 * animation-fill-mode: none
 * animation-play-state: running
 
@@ -29,13 +29,12 @@ Examples:
 ```css
 animation-name: none;
 animation-name: test_05;
-animation-name: -specific;
-animation-name: sliding-vertically;
-
 animation-name: test1;
-animation-name: test1, animation4;
-animation-name: none, -moz-specific, sliding;
 
+/* Multiple animations */
+animation-name: test1, animation4;
+
+/* Global values */
 animation-name: initial
 animation-name: inherit
 animation-name: unset
@@ -89,6 +88,45 @@ Examples:
 ```css
 animation-duration: 6s;
 animation-duration: 120ms;
+
+/* Multiple animations */
 animation-duration: 1s, 15s;
 animation-duration: 10s, 30s, 230ms;
+```
+
+# animation-iteration-count
+
+**default value: 1**
+
+The animation-iteration-count CSS property defines the number of times an animation cycle should be played before stopping.
+
+```css
+animation-iteration-count: infinite;
+animation-iteration-count: 3;
+animation-iteration-count: 2.3;
+
+/* Multiple animations */
+animation-iteration-count: 2, 0, infinite;
+```
+# animation-direction
+
+**default value: normal**
+
+The animation-direction CSS property indicates whether the animation should play in reverse on alternate cycles.
+
+```css
+/* Single animation */
+animation-direction: normal;
+animation-direction: reverse;
+animation-direction: alternate;
+animation-direction: alternate-reverse;
+
+/* Multiple animations */
+animation-direction: normal, reverse;
+animation-direction: alternate, reverse, normal;
+
+/* Global values */
+animation-direction: inherit;
+animation-direction: initial;
+animation-direction: unset;
 ```
