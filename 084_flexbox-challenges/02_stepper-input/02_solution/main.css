@@ -1,3 +1,7 @@
+html {
+    font-size: 3vw;
+}
+
 html, body, div {
     padding: 0;
     margin: 0;
@@ -15,8 +19,8 @@ body {
 }
 
 #stepper {
-    height: 3rem;
-    width: 12rem;
+    height: 4.8rem;
+    width: 19.2rem;
     display: flex;
     border-radius: 1rem;
     border: 1px solid blue;
