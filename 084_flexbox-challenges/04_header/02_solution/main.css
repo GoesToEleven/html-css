@@ -1,8 +1,12 @@
-html {
-    font-size: 2vw;
+* {
+    border: 1px solid hotpink;
 }
 
-html, body, div, button {
+html {
+    font-size: 1vw;
+}
+
+html, body, header, main, h1, button {
     padding: 0;
     /*border: 0;*/
     margin: 0;
@@ -19,11 +23,52 @@ body {
     align-items: center;
 }
 
-#tabs {
-    width: 40rem;
-    border-bottom: .1rem solid darkgray;
+.icon {
+    width: 1em; height: 1em;
+    fill: currentColor;
+    /*overflow: hidden;*/
+}
+
+.icon-big-in {
+    font-size: 20rem;
+}
+
+main {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgba(169, 169, 169, 0.87);
+    font-size: 10rem;
+    letter-spacing: .7rem;
+    text-transform: uppercase;
+}
+
+/* HEADER */
+
+header {
+    /* locks header to top of page */
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* sets dimensions of header */
+    width: 100%;
+    height: 75px;
+    /* sets formatting on header */
+    background-color: gray;
+    border-bottom: 2px solid black;
+    /*
+    header's immediate direct children
+    will be on the left and the right
+    they will also be vertically centered
+    */
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 button {
@@ -39,4 +84,3 @@ button {
 button:hover {
     border-bottom: .2rem solid darkturquoise;
 }
-
