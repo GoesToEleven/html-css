@@ -6,7 +6,7 @@ html {
     font-size: 1vw;
 }
 
-html, body, header, main, h1, button {
+html, body, header, nav, button, div, main, h1 {
     padding: 0;
     /*border: 0;*/
     margin: 0;
@@ -18,6 +18,7 @@ html, body {
 }
 
 body {
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +35,7 @@ body {
 }
 
 main {
-    color: red;
+    color: hotpink;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,16 +72,37 @@ header {
     align-items: center;
 }
 
+nav {
+    /* move from left edge */
+    padding-left: 40px;
+    /* center immediate direct children */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-sm-in {
+    font-size: 1.4rem;
+}
+
 button {
-    flex-grow: 1;
-    font-size: 1.6rem;
-    height: 4.8rem;
+    /* format */
+    color: white;
+    font-size: 1.2rem;
+    /* turn pointer into finger */
     cursor: pointer;
-    border: 0;
-    background-color: white;
-    border-bottom: .2rem solid transparent;
+    /*  */
+    /* center immediate direct children */
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
 
 button:hover {
-    border-bottom: .2rem solid darkturquoise;
+    background-color: lightgrey;
+}
+
+div {
+    /* move from right edge */
+    padding-right: 40px;
 }
