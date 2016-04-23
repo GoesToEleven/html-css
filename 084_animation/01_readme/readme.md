@@ -154,3 +154,21 @@ animation-timing-function: inherited;
 animation-timing-function: initial;
 animation-timing-function: unset;
 ```
+
+# animation-fill-mode
+
+**default value: none**
+
+Do you want your element to stay in the state reached at the end of the animation?
+
+The animation-fill-mode CSS property specifies how a CSS animation should apply styles to its target before and after it is executing.
+
+See the example to understand this.
+
+```css
+animation-fill-mode: none;
+animation-fill-mode: forwards;
+animation-fill-mode: backwards;
+animation-fill-mode: both;
+```
+
