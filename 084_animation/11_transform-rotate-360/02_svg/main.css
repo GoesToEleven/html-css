@@ -35,10 +35,17 @@ body {
 
 .icon-notch {
     font-size: 8rem;
-    transform:rotate(360deg);
-    /*animation-name: spinner;*/
+    animation-name: spinner;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    /*animation-delay: 0s;*/
+    animation-iteration-count: infinite;
+    /*animation-direction: normal;*/
+    /*animation-fill-mode: none;*/
+    /*animation-play-state: running;*/
 }
 
-/*@keyframes spinner {*/
-    /**/
-/*}*/
+@keyframes spinner {
+    0% { transform:rotate(0deg); }
+    100%   { transform:rotate(360deg);}
+}

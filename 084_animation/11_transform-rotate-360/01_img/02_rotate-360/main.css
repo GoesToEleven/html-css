@@ -29,7 +29,7 @@ body {
 img {
     animation-name: spinner;
     animation-duration: 4s;
-    animation-timing-function: ease;
+    animation-timing-function: linear;
     /*animation-delay: 0s;*/
     animation-iteration-count: infinite;
     /*animation-direction: normal;*/
