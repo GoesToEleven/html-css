@@ -132,7 +132,7 @@ animation-direction: unset;
 ```
 # animation-timing-function
 
-**default value: **
+**default value: ease**
 
 The animation-timing-function CSS property specifies how a CSS animation should progress over the duration of each cycle. 
 
