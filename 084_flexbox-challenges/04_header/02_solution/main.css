@@ -83,12 +83,16 @@ nav {
 
 .icon-sm-in {
     font-size: 1.4rem;
+    padding: 10px 30px;
 }
 
 button {
     /* format */
     color: white;
     font-size: 1.2rem;
+    padding: 10px 30px;
+    /* remove button's default background color */
+    background-color: inherit;
     /* turn pointer into finger */
     cursor: pointer;
     /*  */
@@ -99,6 +103,7 @@ button {
 }
 
 button:hover {
+    color: #000;
     background-color: lightgrey;
 }
 
