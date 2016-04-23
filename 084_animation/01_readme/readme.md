@@ -86,7 +86,7 @@ The animation-duration CSS property specifies the length of time that an animati
 
 Examples:
 
-```
+```css
 animation-duration: 6s;
 animation-duration: 120ms;
 animation-duration: 1s, 15s;
