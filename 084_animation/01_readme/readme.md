@@ -172,3 +172,40 @@ animation-fill-mode: backwards;
 animation-fill-mode: both;
 ```
 
+# animation-play-state
+
+**default value: running**
+
+The animation-play-state CSS property determines whether an animation is running or paused. 
+
+This can be queried to determine whether or not the animation is currently running. 
+
+In addition, its value can be set to pause and resume playback of an animation.
+
+Resuming a paused animation will start the animation from where it left off at the time it was paused, rather than starting over from the beginning of the animation sequence.
+
+```css
+/* Single animation */
+animation-play-state: running;
+animation-play-state: paused;
+
+/* Multiple animations */
+animation-play-state: paused, running, running;
+
+/* Global values */
+animation-play-state: inherited;
+animation-play-state: initial;
+animation-play-state: unset;
+```
+
+# animation-delay
+
+**default value: 0s**
+
+The animation-delay CSS property specifies when the animation should start. This lets the animation sequence begin some time after it's applied to an element.
+
+```css
+animation-delay: 3s;
+animation-delay: 2s, 4ms;
+```
+
