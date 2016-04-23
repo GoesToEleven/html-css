@@ -33,6 +33,7 @@ p {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
+    animation-delay: 2s;
 }
 
 @keyframes grow-text {
