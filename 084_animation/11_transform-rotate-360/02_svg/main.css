@@ -36,7 +36,7 @@ body {
 .icon-notch {
     font-size: 8rem;
     animation-name: spinner;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-timing-function: linear;
     /*animation-delay: 0s;*/
     animation-iteration-count: infinite;
