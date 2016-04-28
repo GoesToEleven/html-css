@@ -25,7 +25,7 @@ html, body, #atf {
     align-items: center;
 }
 
-#card {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,14 +35,14 @@ html, body, #atf {
     width: 27%;
 }
 
-#top {
+.top {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#bottom {
+.bottom {
     width: 100%;
     text-align: center;
     background-color: #EEF3F5;
