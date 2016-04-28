@@ -5,10 +5,10 @@
 html {
     font-size: 1vw;
     font-family: Raleway, Helvetica, sans-serif;
-    color: rgb(134, 150, 156);
+    color: #57727C;
 }
 
-html, body, div, button {
+html, body, div, h3, span {
     padding: 0;
     /*border: 0;*/
     margin: 0;
@@ -25,47 +25,40 @@ html, body, #atf {
     align-items: center;
 }
 
-.feature-list {
-    /* arrange children */
+#card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 65%;
-    /* format */
-    padding: 4rem;
-    border: 1px solid rgb(188, 210, 218);
-    border-radius: 20px;
+    border: 1px solid rgb(202, 208, 210);
+    border-radius: 4px;
+    width: 27%;
 }
 
-.feature-list-item {
-    /* arrange children */
-    width: 100%;
+#top {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    /* format */
-    padding: 20px;
-    border-bottom: 1px solid rgb(188, 210, 218);
 }
 
-.row-left {
-    justify-content: flex-start;
+#bottom {
+    width: 100%;
+    text-align: center;
+    background-color: #EEF3F5;
+    border-top: 1px solid #D7DBDD;
+    margin-top: 1.6rem;
+    padding: 1.7rem;
 }
 
-.row-right {
-    justify-content: flex-end;
-}
-
-.feature-list-item:last-child {
-    border-bottom: transparent;
-}
-
-h2 {
-    font-size: 2rem;
+h3 {
+    font-size: 2.2rem;
     font-weight: 300;
-    padding: 0 2rem;
-    flex-grow: 1;
-    flex-shrink: 1;
+}
+
+span {
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .icon {
@@ -78,7 +71,7 @@ h2 {
 
 .icon-mas {
     color: rgb(188, 210, 218);
-    font-size: 10rem;
+    font-size: 20rem;
     flex-grow: 0;
     flex-shrink: 0;
 }
