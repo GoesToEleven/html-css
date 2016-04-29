@@ -3,12 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="main.css">
+    <style>
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            background-image: url('01.jpg');
+        }
+
+        /*body:hover {*/
+            /*background-image: url('02.jpg');*/
+        /*}*/
+
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+    </style>
 </head>
 <body>
 
 
 <div></div>
 
+<script>
+    var btn = document.querySelector('div');
+    btn.addEventListener('click', changerthing, false);
+
+    function changerthing() {
+        var bdy = document.querySelector('body');
+        bdy.style.backgroundImage = "URL('02.jpg')";
+    }
+
+
+</script>
 </body>
 </html>
