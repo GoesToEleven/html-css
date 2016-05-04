@@ -32,7 +32,7 @@ main {
 }
 
 div {
-    height: 400px;
+    height: 600px;
     padding: 0 0 0 30px;
     display: flex;
     flex-direction: column;

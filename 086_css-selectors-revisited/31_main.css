@@ -48,12 +48,12 @@ input {
     border: 1px solid darkgray;
 }
 
-input[type=submit] {
+[type=submit] {
     margin-top: 10px;
     border: 1px solid darkgray;
 }
 
-input[type=submit]:hover {
+[type=submit]:hover {
     background-color: #00FF00;
 }
 
