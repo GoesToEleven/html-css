@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        ol {
+            /*list-style-type: upper-latin;*/
+            /*list-style-type: lower-greek;*/
+            /*list-style-type: lower-alpha;*/
+            list-style-type: lower-roman;
+        }
+
+        ul {
+            list-style-type: square;
+            /*list-style-type: disc;*/
+        }
+    </style>
+</head>
+<body>
+
+
+<!--ol>(li{something})*8-->
+<ol>
+    <li>something</li>
+    <li>something</li>
+    <li>something</li>
+    <li>something
+        <!--ul>(li{and yet more})*4-->
+        <ul>
+            <li>and yet more</li>
+            <li>and yet more</li>
+            <li>and yet more</li>
+            <li>and yet more</li>
+        </ul>
+    </li>
+    <li>something</li>
+    <li>something</li>
+    <li>something</li>
+    <li>something</li>
+</ol>
+
+</body>
+</html>

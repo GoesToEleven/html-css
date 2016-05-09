@@ -1,5 +1,0 @@
-Create a webpage that has a full page image.
-
-This image should always be shown "above the fold". What this means is that, regardless of the size of the browser viewport, the image always takes up the full viewport height. Any other content on the webpage will appear "below the fold".
-
-Prove that the page you built in the previous challenge is "above the fold" by adding content in the "below the fold" area.
