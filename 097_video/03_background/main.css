@@ -1,4 +1,4 @@
-html, body, h1, div, video, footer {
+html, body, h1, div, video {
     padding: 0;
     margin: 0;
 }
@@ -7,31 +7,22 @@ html, body, #atf {
     height: 100%;
 }
 
-#atf {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: static;
-}
-
 video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: -1;
-    overflow: hidden;
+}
+
+#atf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*position: static;*/
 }
 
 h1 {
     color: red;
     font-size: 5rem;
-}
-
-#btf {
-    background-color: white;
-}
-
-footer {
-    background-color: white;
 }
