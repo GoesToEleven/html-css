@@ -11,16 +11,16 @@ html, body, #atf {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: static;
 }
 
 video {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    width: 100%;
     z-index: -1;
-    background-size: cover;
-    transition: 1s opacity;
+    overflow: hidden;
 }
 
 h1 {
