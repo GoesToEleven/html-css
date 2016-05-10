@@ -1,14 +1,78 @@
 ## Media
 ### Images, Audio, Video, IFrames
-Summary: 
+Summary: Media has been a part of the web since its inception, however with HTML5, adding media to your website is easier than ever.
 
 ### Images
 
+```css
+img {
+  width: set-width;
+  height: set-height;
+  float: direction; /*Float will make an image move to the side of text.*/
+  border-radius: make-rounded-edges;
+
+}
+```
+```html
+<img src="image-source.ext" alt="alternate text if the picture cannot show.">
+```
+
+Adding images to your webpages are very simple, just add `img`!
+
+<div style="box-sizing: border-box;position: relative;width: 300px;height: 200px;">
+  <p style="box-sizing: border-box;position: absolute; top: 0px; left: 10px; font-size: 1.9em; color: white;text-shadow: 2px 2px gray;margin-top: 10px;">Hello World!</p>
+  <a href="http://www.hawaiikawaii.net/wp-content/uploads/2011/11/Nerd-Cat-Hello-Kitty-Nerd-Kawaii-Cat-Blog.gif" style="text-decoration: none;">
+    <img style="box-sizing: border-box;width: 100%;border: 1px solid #ddd;border-radius: 4px;padding: 2px;" src="http://www.hawaiikawaii.net/wp-content/uploads/2011/11/Nerd-Cat-Hello-Kitty-Nerd-Kawaii-Cat-Blog.gif" title="Hai!" alt="Image Example">
+  </a>
+</div>
+
 ### Audio
+With the introduction of HTML5, there is now a tag to play audio directly; without the need for plugins.
+
+```html
+<audio>
+  <source src="audio-source" type="audio/type">
+</audio>
+```
+```
+Options
+ - controls
+ - autoplay
+ - loop
+```
+
+This will allow you to have audio in your page directly. If the attribute controls is set, the player is visible otherwise it is not shown. Autoplay will do as the name indicates and play the audio on page load. Finally, loop also does as the label describes; loops the audio infinately. 
 
 ### Video
 
+Also added with the introduction of HTML5, videos are also able to be played directly from the browser.
+
+```html
+<video width="recommended-to-set" height="recommended-to-set">
+  <source src="video-source" type="video/type">
+</video>
+```
+```
+Options
+ - controls
+ - autoplay
+ - poster = "image-as-poster"
+```
+
+As before, this creates a browser-dependant video player. The video is always visable, but controls will allow the user to interact with the video. The new option here is poster. A poster is the image a video has before it has started playing.
+
 ### Iframe
+
+```html
+<iframe src="web-source" height="recommended-to-set" width="recommended-to-set"></iframe>
+```
+```
+Options
+ - allowfullscreen
+ - frameborder = size
+```
+
+An iframe is another webpage embedded into your page. This is very useful in several situations such as embedded youtube videos or other services.
 
 ### Code Example: Media
 
