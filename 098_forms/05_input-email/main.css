@@ -2,9 +2,10 @@ html {
     font-size: 3vw;
 }
 
-html, body {
+html, body, form, input {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -13,7 +14,6 @@ html, body {
 
 body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -33,5 +33,22 @@ div {
 
 form, input {
     font-size: 1rem;
+}
+
+#frmsubmit {
+    justify-content: flex-end;
+}
+
+#submitobey {
+    border: 1px solid black;
+    font-size: .7rem;
+    background-color: white;
+    padding: .2rem .4rem;
+    border-radius: 5px;
+    margin-top: .8rem;
+}
+
+#submitobey:hover {
+    background-color: #00C957;
 }
 
