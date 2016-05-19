@@ -1,0 +1,16 @@
+img {
+    width: 200px;
+}
+
+article {
+    width: 80%;
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
+    -webkit-column-rule: 1px solid #444;
+    -moz-column-rule: 1px solid #444;
+    column-rule: 1px solid #444;
+}
